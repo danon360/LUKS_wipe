@@ -1,2 +1,3 @@
 # LUKS_wipe
-Python script that irreversibly wipes a LUKS encrypted partition 
+Python script that quickly and irreversibly wipes a LUKS encrypted partition.
+Run as superuser.

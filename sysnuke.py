@@ -4,7 +4,7 @@ import subprocess
 header_location = "/dev/nvme0n1p3"
 
 #size of the luks header 
-header_size = 20
+header_size = '20'
 
 #command to run
 command = ['dd', 'if=/dev/zero', 'of=' + header_location, 'bs=1M', 'count=' + header_size]
